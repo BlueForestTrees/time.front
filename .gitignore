@@ -1,0 +1,15 @@
+
+*.log
+.vertx/
+file-uploads/
+node_modules/
+target/
+/target/
+data/indexes/
+data/pages/
+data/textes/
+data/temp/
+*.idea
+*.iml
+*.classpath
+*.project

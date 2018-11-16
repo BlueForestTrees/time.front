@@ -1,0 +1,24 @@
+{
+  "name": "time.api",
+  "version": "1.0.0",
+  "description": "Frontal de histoires.xyz",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --progress --profile",
+    "start": "webpack-dev-server --progress --profile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "3.0.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "0.23.0",
+    "expose-loader": "0.7.1",
+    "html-webpack-plugin": "2.8.1",
+    "rimraf": "2.5.1",
+    "style-loader": "0.13.0",
+    "webpack": "1.12.13",
+    "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {}
+}

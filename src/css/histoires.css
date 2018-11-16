@@ -1,0 +1,242 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.fa-search:before {
+	content: url(/img/loupe.svg);
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background: #ffffff;
+}
+
+.textIntro h1 {
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.home {
+	background: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.homebox {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.titles {
+	top: 30%;
+	position: absolute;
+	transform: translate(-50%, -15%);
+}
+
+.logo {
+	background-size:376px 130px;
+	height:130px;
+	width:376px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	background: url(/img/logo.png) no-repeat;
+}
+.search {
+	position: relative;
+	display: inline-block;
+	color: #aaa;
+	padding-bottom: 3em;
+}
+
+.subtitle {
+	color: #51598C;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitle2{
+}
+.subtitle1{
+	padding-bottom: 2em;
+}
+
+.phraseHeader{
+	text-align: left;
+	font-size: small;
+	margin-top: 15px;
+}
+
+.search input {
+	width: 450px;
+	height: 32px;
+	padding-right: 30px;
+	text-align: left;
+	font-family: Lucida Console;
+	font-size: 25px;
+	border: 1px solid #CDCDCD;
+	border-radius: 3px;
+	text-indent: 10px;
+}
+
+h1, h2, h3{
+	font-family: Lucida Console;
+}
+
+.search .fa-search {
+	position: absolute;
+	right: 0px;
+}
+
+.top7 {
+	top: 7px;
+}
+
+.hand {
+	cursor:pointer;
+}
+
+.timelines {
+	line-height: 0px;
+}
+
+.header {
+	box-shadow: rgba(11, 17, 25, 0.25) 0 2px 5px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	line-height: 55px;
+	text-align: center;
+	background: #f2f2f2;
+}
+
+.logo-petit {
+    background-size:178px 134px;
+    height:55px;
+    width:250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(/img/logo-petit.png) no-repeat;
+}
+
+.throbber {
+	background-size:32px 32px;
+	height:32px;
+	width:32px;
+	position: absolute;
+	top: 10px;
+	left: 240px;
+	background: url(/img/throbber.gif) no-repeat;
+}
+
+.content {
+	display : none;
+}
+.bottom {
+	height : 80px;
+}
+.throbber{
+	height: 400px;
+	text-align: center;
+	display : none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    background: #f2f2f2;
+    color: #666
+}
+
+.footer .right{
+    float: right;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+.footer .right a{
+    margin-right: 30px;
+}
+
+a:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.footer .left{
+    float: left;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+.footer .left a{
+	margin-left: 30px;
+}
+
+.phrases {
+	margin-top: 150px;
+}
+
+.throbber {
+	margin-top: 0;
+	vertical-align: middle;
+	margin-top: expression(( 150 - this.height)/2);
+}
+
+.bartip {
+	position: absolute;
+	text-align: center;
+	background: #FFF;
+	font: italic normal 90% Georgia, serif;
+	height: 20px;
+	visible: false;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.mousetip {
+	border: 0px solid;
+}
+
+.bartip {
+	border: 1px solid #CDCDCD;
+	box-shadow: rgba(11, 17, 25, 0.1) 0 2px 5px;
+}
+
+.bartip:before, .bartip:after {
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 15px;
+	z-index: 1;
+}
+
+.bartip:before {
+	border-bottom: 8px solid #CDCDCD;
+	border-left: 8px solid transparent;
+	border-top: 8px solid transparent;
+	border-right: 8px solid transparent;
+	margin-top: -16px;
+}
+
+.bartip:after {
+	border-bottom: 8px solid #FFF;
+	border-left: 8px solid transparent;
+	border-top: 8px solid transparent;
+	border-right: 8px solid transparent;
+	margin-top: -15px;
+}
