@@ -1,4 +1,4 @@
-
+dist/
 *.log
 .vertx/
 file-uploads/
